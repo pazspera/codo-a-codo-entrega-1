@@ -7,17 +7,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Codo a Codo NodeJS - Paz Spera</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <nav class="navbar navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-          <a class="navbar-brand link-light" href="#"><img src="./img/codoacodo.png" class="navbar__img" alt="Logo"> Conf Bs As</a>
+          <a class="navbar-brand link-light" href="#"><img src="./img/codoacodo.png" class="navbar__img" alt="Logo" /> Conf Bs As</a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler text-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -45,13 +45,29 @@
                 <a class="nav-link link-light text-white-50 fs-6" href="#">Conviértete en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-success fw-bold fs-6" href="#">Comprar tickets</a>
+                <a class="nav-link link-success nav-link__highlight fw-bold fs-6" href="#">Comprar tickets</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
+    <!-- Hero -->
+    <section class="hero d-flex flex-column align-items-end justify-content-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 offset-md-4 col-lg-6 offset-lg-6">
+            <h1 class="text-white text-end">Conf Bs As</h1>
+            <p class="text-white text-end">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <div class="hero__btns text-end">
+                <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                <button type="button" class="btn btn-success ms-3">Comprar tickets</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap JS -->
     <script src="./js/bootstrap.bundle.min.js"></script>

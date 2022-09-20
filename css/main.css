@@ -1,7 +1,22 @@
+.hero {
+  min-height: 88vh;
+  background-image: url(../img/hero_final.jpg);
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .navbar__img {
   max-width: 100px;
 }
 
 .nav-link {
   font-size: 14px !important;
+}
+
+.nav-link__highlight {
+  color: #198754 !important;
 }/*# sourceMappingURL=main.css.map */
