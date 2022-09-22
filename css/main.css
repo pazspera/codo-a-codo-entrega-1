@@ -9,6 +9,10 @@
   background-repeat: no-repeat;
 }
 
+.formulario__btn {
+  background-color: #96C93E !important;
+}
+
 .navbar__img {
   max-width: 100px;
 }
